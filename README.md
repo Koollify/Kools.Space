@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./KoolSpace Default Icon.png" width="90" alt="Kool Space Logo">
+<img src="./KoolSpace Default Icon.png" width="150" alt="Kool Space Logo">
 
 # KOOL SPACE
 ### `ONE SPACE. MULTIPLE CREATIONS.`

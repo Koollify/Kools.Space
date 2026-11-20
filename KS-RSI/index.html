@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Roblox Server Info</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    html, body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: Segoe UI, sans-serif;
+      color: #f4f4f5;
+      -webkit-app-region: drag;
+      user-select: none;
+      background:
+        radial-gradient(ellipse 130% 85% at 15% 15%, rgba(255, 255, 255, 0.14), transparent 58%),
+        radial-gradient(ellipse 120% 90% at 85% 85%, rgba(255, 255, 255, 0.11), transparent 60%),
+        linear-gradient(145deg, #27272a 0%, #18181b 52%, #0f0f11 100%);
+    }
+    .wave-overlay {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background:
+        radial-gradient(circle at 75% 20%, rgba(212, 212, 216, 0.08), transparent 45%),
+        radial-gradient(circle at 25% 80%, rgba(161, 161, 170, 0.07), transparent 50%);
+    }
+    .top-bar {
+      position: fixed;
+      top: 12px;
+      left: 14px;
+      right: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 10;
+      pointer-events: none;
+    }
+    .traffic-lights {
+      display: flex;
+      gap: 8px;
+      pointer-events: auto;
+      -webkit-app-region: no-drag;
+    }
+    .dot {
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      border: 0;
+      padding: 0;
+      cursor: pointer;
+    }
+    .close { background: #ff5f56; }
+    .minimize { background: #ffbd2e; }
+    .maximize { background: #27c93f; }
+    .pin-btn {
+      width: 26px;
+      height: 26px;
+      border-radius: 8px;
+      border: 1px solid rgba(161, 161, 170, 0.35);
+      background: rgba(39, 39, 42, 0.45);
+      color: #71717a;
+      display: grid;
+      place-items: center;
+      cursor: pointer;
+      pointer-events: auto;
+      -webkit-app-region: no-drag;
+    }
+    .pin-btn:hover {
+      border-color: rgba(212, 212, 216, 0.55);
+      color: #a1a1aa;
+    }
+    .pin-btn.active {
+      border-color: rgba(161, 161, 170, 0.55);
+      background: rgba(113, 113, 122, 0.22);
+      color: #d4d4d8;
+    }
+    .card {
+      position: relative;
+      z-index: 2;
+      width: 374px;
+      padding: 18px 20px;
+      border-radius: 22px;
+      background: rgba(39, 39, 42, 0.72);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.65);
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+    }
+    h2 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: -0.2px;
+    }
+    .pill {
+      font-size: 11px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #d4d4d8;
+    }
+    .box {
+      padding: 12px 15px;
+      border-radius: 16px;
+      background: rgba(24, 24, 27, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+    }
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin: 7.5px 0;
+      font-size: 13px;
+      color: #a1a1aa;
+    }
+    .row:first-child { margin-top: 0; }
+    .row:last-child { margin-bottom: 0; }
+    span {
+      color: #f4f4f5;
+      font-weight: 600;
+      text-align: right;
+      max-width: 230px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    button.refresh {
+      margin-top: 12px;
+      width: 100%;
+      padding: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.12);
+      color: #ffffff;
+      font-weight: 700;
+      cursor: pointer;
+      -webkit-app-region: no-drag;
+    }
+    button.refresh:hover {
+      background: rgba(255, 255, 255, 0.18);
+    }
+    .brand-footer {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-top: 8px;
+      line-height: 1.1;
+    }
+    .brand-sub {
+      font-size: 10px;
+      color: #a1a1aa;
+      letter-spacing: 0.4px;
+    }
+    .brand-title {
+      font-size: 17px;
+      font-weight: 800;
+      color: #f4f4f5;
+      margin: 2px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="wave-overlay"></div>
+  <div class="top-bar">
+    <div class="traffic-lights">
+      <button class="dot close" onclick="winAction('close')" title="Close"></button>
+      <button class="dot minimize" onclick="winAction('minimize')" title="Minimize"></button>
+      <button class="dot maximize" onclick="winAction('maximize')" title="Maximize"></button>
+    </div>
+    <button id="pinBtn" class="pin-btn active" onclick="togglePin()" title="Pin on top">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 17v5"></path>
+        <path d="M9 10.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V7a1 1 0 0 1 1-1 2 2 0 0 0 0-4H8a2 2 0 0 0 0 4 1 1 0 0 1 1 1z"></path>
+      </svg>
+    </button>
+  </div>
+  <div class="card">
+    <div class="header">
+      <h2>Roblox Server Info</h2>
+      <div class="pill">MONO</div>
+    </div>
+    <div class="box">
+      <div class="row">Game <span id="game">Loading...</span></div>
+      <div class="row">IP <span id="ip">-</span></div>
+      <div class="row">Ping <span id="ping">-</span></div>
+      <div class="row">City <span id="city">-</span></div>
+      <div class="row">Region <span id="region">-</span></div>
+      <div class="row">Country <span id="country">-</span></div>
+      <div class="row">Org <span id="org">-</span></div>
+    </div>
+    <button class="refresh" onclick="loadInfo()">Refresh</button>
+  </div>
+  <div class="brand-footer">
+    <div class="brand-sub">powered by</div>
+    <div class="brand-title">MinpleUI</div>
+    <div class="brand-sub">mono</div>
+  </div>
+  <script>
+    const { ipcRenderer } = require("electron");
+    function winAction(action) {
+      ipcRenderer.send("win-action", action);
+    }
+    async function togglePin() {
+      const pinned = await ipcRenderer.invoke("toggle-pin");
+      document.getElementById("pinBtn").classList.toggle("active", pinned);
+    }
+    async function loadInfo() {
+      document.getElementById("game").textContent = "Loading...";
+      document.getElementById("ping").textContent = "Checking...";
+      const d = await ipcRenderer.invoke("get-server");
+      document.getElementById("game").textContent = d.game || "Unknown";
+      document.getElementById("ip").textContent = d.ip || "None";
+      document.getElementById("ping").textContent = d.ping || "Unknown";
+      document.getElementById("city").textContent = d.city || "Unknown";
+      document.getElementById("region").textContent = d.region || "Unknown";
+      document.getElementById("country").textContent = d.country || "Unknown";
+      document.getElementById("org").textContent = d.org || "Unknown";
+    }
+    loadInfo();
+  </script>
+</body>
+</html>

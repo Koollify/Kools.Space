@@ -3,7 +3,7 @@
 ### One space. Multiple creations.
 
 Welcome to **Kool Space** - a bored person making tools and random stuff on its custom UI: MinpleUI.
-
+Projects with simple, sleek modern ui, not eye-rape from 2007. Powered by MinpleUI 26. "Design around the content, not the container" - me at 2 am 🗿🗿
 A growing collection of projects, each with its own purpose, and simplicity.
 
 ---

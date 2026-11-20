@@ -2,7 +2,7 @@
 
 ### One space. Multiple creations.
 
-Welcome to **Kool Space** — a bored person making tools and random stuff on its custom UI: MinpleUI.
+Welcome to **Kool Space** - a bored person making tools and random stuff on its custom UI: MinpleUI.
 
 A growing collection of projects, each with its own purpose, and simplicity.
 
@@ -38,7 +38,7 @@ The goal is simple:
 
 Looking for downloads and updates?
 
-Head over to the [Releases](../../releases) section to explore available software and their latest versions.
+Head over to the [Releases](../../releases) section to explore available software and their latest versions
 
 ---
 

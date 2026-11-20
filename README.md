@@ -1,20 +1,23 @@
+# ☁️ KOOL SPACE
+### `ONE SPACE. MULTIPLE CREATIONS.`
+
 <div align="center">
 
-# ☁️ Kool Space
+![Kool Space](https://img.shields.io/badge/KOOL_SPACE-MINPLEUI_26-171717?style=for-the-badge&labelColor=080808)
 
-**One space. Multiple creations.**
+**A little space for software, experiments, and questionable amounts of coding.**
 
-> *"Design around the content, not the container."*  
+<br>
+
+> *"Design around the content, not the container."*
+>
 > — me at 2 AM 🗿
 
 </div>
 
-* ![UI](https://img.shields.io/badge/UI-MinpleUI-18181b?style=flat-square)
-* ![Apps](https://img.shields.io/badge/Apps-Tools%20%26%20Random%20Stuff-18181b?style=flat-square)
-* ![Games](https://img.shields.io/badge/Games-Roblox%20%7C%20MC%20%7C%20More-18181b?style=flat-square)
-* ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20More-18181b?style=flat-square)
-
 ---
+
+## ◈ ABOUT
 
 Welcome to **Kool Space** — a bored person making tools and random stuff with its custom UI: **MinpleUI**.
 
@@ -22,54 +25,58 @@ Projects with simple, sleek, modern UI. No eye-rape from 2007.
 
 Powered by **MinpleUI 26**.
 
-A growing collection of projects, each with its own purpose and simplicity.
+A growing collection of projects, each with its own purpose, built with simplicity in mind.
 
 ---
 
-## 🚀 Projects
+## 🚀 PROJECTS
 
-A collection of software developed under Kool Space.
+*A growing collection of software developed under Kool Space.*
 
-### [Roblox](https://github.com/Koollify/Kools.Space/releases/tag/Roblox)🥀💀
+### 🎮 Roblox 🥀💀
+
 | Project | Description | Version | Releases |
-|---|---|---|---|
-| **KoolSpace RSI** | KoolSpace Roblox Server Info | v1.3.5 | [Click Here!](https://github.com/Koollify/Kools.Space/releases/tag/Roblox) |
+|:---|:---|:---:|:---:|
+| **KoolSpace RSI** | KoolSpace Roblox Server Info | `1.3.5` | [↗ Download](https://github.com/Koollify/Kools.Space/releases/tag/Roblox) |
 
-More projects will appear here as Kool Space grows.
+<sub>More projects are on the way. This space is still expanding.</sub>
 
 ---
 
-## 🧩 What is Kool Space?
+## ◈ THE PHILOSOPHY
 
 Kool Space is an independent software hub focused on creating useful, interesting, and thoughtfully designed applications.
 
-The goal is simple:
-- Build useful software.
-- Experiment with new ideas.
-- Prioritize functionality and design.
-- Keep improving existing projects.
-- Give every project room to grow.
+**The goal is simple:**
+
+- ◇ Build useful software.
+- ◇ Experiment with new ideas.
+- ◇ Prioritize functionality and design.
+- ◇ Keep improving existing projects.
+- ◇ Give every project room to grow.
 
 ---
 
-## 📦 Releases
+## 📦 RELEASES & UPDATES
 
-Looking for downloads and updates?
+Looking for downloads, updates, or new projects?
 
-Head over to the [Releases](../../releases) section to explore available software and their latest versions
+**[Explore all releases →](../../releases)**
 
 ---
 
-## 🏷️ Topics
+## ◈ REPOSITORY TOPICS
 
-`kool-space` `koolspace` `software` `development` `applications` `utilities`
+`kool-space` `koolspace` `software` `development` `applications` `utilities` `minpleui`
 
 ---
 
 <div align="center">
 
-# ☁️ KOOL SPACE
+### ☁️ KOOL SPACE
 
-*Built with curiosity. Made to be useful.*
+**BUILT WITH CURIOSITY. MADE TO BE USEFUL.**
+
+<sub>Powered by MinpleUI 26 · Made with questionable amounts of free time.</sub>
 
 </div>

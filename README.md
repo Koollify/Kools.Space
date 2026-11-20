@@ -12,9 +12,9 @@ A growing collection of projects, each with its own purpose, identity, and ideas
 
 A collection of software developed under Kool Space.
 
-| Project | Description | Status |
-|---|---|---|
-| **KS RSI** | KoolSpace Roblox Server Info | 🟢 Released |
+| Project | Description | Version | Releases |
+|---|---|---|---|
+| **KS RSI** | KoolSpace Roblox Server Info | v1.3.3 | [Click Here!](https://github.com/Koollify/Kools.Space/releases/tag/Roblox) |
 
 More projects will appear here as Kool Space grows.
 

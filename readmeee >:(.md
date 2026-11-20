@@ -39,7 +39,7 @@ A growing collection of projects, each with its own purpose, built with simplici
 
 | Project | Description | Version | Releases |
 |:---|:---|:---:|:---:|
-| **KoolSpace RSI** | KoolSpace Roblox Server Info | `1.3.5` | [↗ Download](https://github.com/Koollify/Kools.Space/releases/tag/Roblox) |
+| **KoolSpace RSI** | KoolSpace Roblox Server Info | `1.3.7` | [↗ Download](https://github.com/Koollify/Kools.Space/releases/tag/Roblox) |
 
 <sub>◈ More projects are on the way. This space is still expanding.</sub>
 

@@ -1,18 +1,27 @@
-# ☁️ Kool Space
-
-### One space. Multiple creations.
+<div align="center">
 
 # ☁️ Kool Space
+
+**One space. Multiple creations.**
+
+[![UI](https://img.shields.io/badge/UI-MinpleUI%2026-18181b?style=flat-square)](../../releases)
+[![Release](https://img.shields.io/badge/KoolSpace%20RSI-v1.3.5-18181b?style=flat-square)](https://github.com/Koollify/Kools.Space/releases/tag/Roblox)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20x64-18181b?style=flat-square)](../../releases)
+
+> *"Design around the content, not the container."*  
+> — me at 2 AM 🗿
+
+[📦 Get KoolSpace RSI v1.3.5](https://github.com/Koollify/Kools.Space/releases/tag/Roblox) • [🧩 What is this?](#-what-is-kool-space)
+
+</div>
+
+---
 
 Welcome to **Kool Space** — a bored person making tools and random stuff with its custom UI: **MinpleUI**.
 
 Projects with simple, sleek, modern UI. No eye-rape from 2007.
 
 Powered by **MinpleUI 26**.
-
-> "Design around the content, not the container."
->
-> — me at 2 AM 🗿
 
 A growing collection of projects, each with its own purpose and simplicity.
 

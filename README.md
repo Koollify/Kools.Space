@@ -4,14 +4,14 @@
 
 **One space. Multiple creations.**
 
-[![UI](https://img.shields.io/badge/UI-MinpleUI%2026-18181b?style=flat-square)](../../releases)
-[![Hub](https://img.shields.io/badge/Hub-Kool%20Space-18181b?style=flat-square)](../../releases)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20x64-18181b?style=flat-square)](../../releases)
+[![UI](https://img.shields.io/badge/UI-MinpleUI%2026-18181b?style=flat-square)](#what-is-kool-space)
+[![Scope](https://img.shields.io/badge/Scope-Multi--Purpose-18181b?style=flat-square)](#projects)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20MC%20%7C%20More-18181b?style=flat-square)](#projects)
 
 > *"Design around the content, not the container."*  
 > — me at 2 AM 🗿
 
-[📦 Browse Releases](../../releases) • [🧩 What is this?](#-what-is-kool-space)
+[🚀 Projects](#projects) • [🧩 What is this?](#what-is-kool-space)
 
 </div>
 

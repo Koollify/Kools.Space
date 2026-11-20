@@ -2,9 +2,9 @@
 
 ### One space. Multiple creations.
 
-Welcome to **Kool Space** — a home for software, utilities, experiments, and other things built with code.
+Welcome to **Kool Space** — a bored person making tools and random stuff on its custom UI: MinpleUI.
 
-A growing collection of projects, each with its own purpose, identity, and ideas behind it.
+A growing collection of projects, each with its own purpose, and simplicity.
 
 ---
 
@@ -12,6 +12,7 @@ A growing collection of projects, each with its own purpose, identity, and ideas
 
 A collection of software developed under Kool Space.
 
+[#Roblox 🥀](https://github.com/Koollify/Kools.Space/releases/tag/Roblox) 
 | Project | Description | Version | Releases |
 |---|---|---|---|
 | **KS RSI** | KoolSpace Roblox Server Info | v1.3.3 | [Click Here!](https://github.com/Koollify/Kools.Space/releases/tag/Roblox) |

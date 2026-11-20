@@ -1,7 +1,7 @@
+<div align="center">
+
 # ☁️ KOOL SPACE
 ### `ONE SPACE. MULTIPLE CREATIONS.`
-
-<div align="center">
 
 ![Kool Space](https://img.shields.io/badge/KOOL_SPACE-MINPLEUI_26-171717?style=for-the-badge&labelColor=080808)
 

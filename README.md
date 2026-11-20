@@ -5,13 +5,13 @@
 **One space. Multiple creations.**
 
 [![UI](https://img.shields.io/badge/UI-MinpleUI%2026-18181b?style=flat-square)](../../releases)
-[![Release](https://img.shields.io/badge/KoolSpace%20RSI-v1.3.5-18181b?style=flat-square)](https://github.com/Koollify/Kools.Space/releases/tag/Roblox)
+[![Hub](https://img.shields.io/badge/Hub-Kool%20Space-18181b?style=flat-square)](../../releases)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20x64-18181b?style=flat-square)](../../releases)
 
 > *"Design around the content, not the container."*  
 > — me at 2 AM 🗿
 
-[📦 Get KoolSpace RSI v1.3.5](https://github.com/Koollify/Kools.Space/releases/tag/Roblox) • [🧩 What is this?](#-what-is-kool-space)
+[📦 Browse Releases](../../releases) • [🧩 What is this?](#-what-is-kool-space)
 
 </div>
 

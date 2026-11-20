@@ -1,11 +1,11 @@
-<div align="center">
+ <div align="center">
 
 # ☁️ KOOL SPACE
 ### `ONE SPACE. MULTIPLE CREATIONS.`
 
 ![Kool Space](https://img.shields.io/badge/KOOL_SPACE-MINPLEUI_26-171717?style=for-the-badge&labelColor=080808)
 
-**A little space for software, experiments, and questionable amounts of coding at 2 am🗿🔥**
+**A little space for software, experiments, and questionable amounts of coding at 2 AM. 🗿🔥**
 
 <br>
 
@@ -13,9 +13,9 @@
 >
 > — me at 2 AM 🗿
 
-</div>
+`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`
 
----
+</div>
 
 ## ◈ ABOUT
 
@@ -31,7 +31,7 @@ A growing collection of projects, each with its own purpose, built with simplici
 
 ## 🚀 PROJECTS
 
-*A growing collection of software developed under Kool Space.*
+* A growing collection of software developed under Kool Space.
 
 ### 🎮 Roblox 🥀💀
 
@@ -39,7 +39,7 @@ A growing collection of projects, each with its own purpose, built with simplici
 |:---|:---|:---:|:---:|
 | **KoolSpace RSI** | KoolSpace Roblox Server Info | `1.3.5` | [↗ Download](https://github.com/Koollify/Kools.Space/releases/tag/Roblox) |
 
-<sub>More projects are on the way. This space is still expanding.</sub>
+<sub>◈ More projects are on the way. This space is still expanding.</sub>
 
 ---
 
@@ -54,6 +54,8 @@ Kool Space is an independent software hub focused on creating useful, interestin
 - ◇ Prioritize functionality and design.
 - ◇ Keep improving existing projects.
 - ◇ Give every project room to grow.
+
+> **Minimalism isn't about making things smaller. It's about removing what isn't necessary.**
 
 ---
 
@@ -72,6 +74,8 @@ Looking for downloads, updates, or new projects?
 ---
 
 <div align="center">
+
+`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`
 
 ### ☁️ KOOL SPACE
 

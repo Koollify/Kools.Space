@@ -15,7 +15,7 @@ A collection of software developed under Kool Space.
 ### [Roblox](https://github.com/Koollify/Kools.Space/releases/tag/Roblox)🥀💀
 | Project | Description | Version | Releases |
 |---|---|---|---|
-| **KoolSpace RSI** | KoolSpace Roblox Server Info | v1.3.3 | [Click Here!](https://github.com/Koollify/Kools.Space/releases/tag/Roblox) |
+| **KoolSpace RSI** | KoolSpace Roblox Server Info | v1.3.5 | [Click Here!](https://github.com/Koollify/Kools.Space/releases/tag/Roblox) |
 
 More projects will appear here as Kool Space grows.
 

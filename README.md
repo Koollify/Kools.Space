@@ -11,7 +11,7 @@
 
 > *"Design around the content, not the container."*
 >
-> — me at 2 AM 🗿
+> — me half asleep 🗿
 
 `━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`
 

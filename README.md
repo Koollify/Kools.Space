@@ -35,7 +35,7 @@ A growing collection of projects, each with its own purpose, built with simplici
 
 * A growing collection of software developed under Kool Space.
 
-### 🎮 Roblox 🥀💀
+### 🎮 [Roblox](https://github.com/Koollify/Kools.Space/releases/tag/Roblox)🥀💀
 
 | Project | Description | Version | Releases |
 |:---|:---|:---:|:---:|

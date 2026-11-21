@@ -7,7 +7,7 @@
 
 ![Kool Space](https://img.shields.io/badge/KOOL_SPACE-MINPLEUI_26-171717?style=for-the-badge&labelColor=080808)
 
-**A little space for software, tools, and questionable amounts of coding at 2 AM. 🗿🔥**
+**A little space for software, tools, and questionable amounts of coding at 2 AM. 😭🔥**
 
 <br>
 
